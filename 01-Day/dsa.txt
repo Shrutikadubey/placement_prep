@@ -1,0 +1,156 @@
+🚀 DSA + C++ Cheat Sheet for Placement Prep
+🧠 Must-Know Topics
+Arrays
+Linked List
+Stack & Queue
+Tree & Graph
+HashMap
+STL (vector, map, set, etc.)
+Sorting & Searching
+Time & Space Complexity
+📦 1. Arrays
+🔹 Basics
+int arr[5] = {1,2,3,4,5};
+🔹 Important Operations
+Traversal → O(n)
+Access → O(1)
+Insert/Delete → O(n)
+🔥 Must Do
+Prefix Sum
+Kadane’s Algorithm
+Two Pointer
+🔗 2. Linked List
+🔹 Types
+Singly
+Doubly
+Circular
+🔹 Basic Node
+struct Node {
+    int data;
+    Node* next;
+};
+🔹 Important Operations
+Insert/Delete → O(1) (if pointer known)
+Traversal → O(n)
+🔥 Must Do
+Reverse LL
+Detect Cycle (Floyd Algo)
+Merge Two Lists
+🥞 3. Stack
+🔹 Concept → LIFO
+stack<int> s;
+s.push(10);
+s.pop();
+s.top();
+🔹 Use Cases
+Next Greater Element
+Balanced Parentheses
+Expression Evaluation
+🚶‍♂️ 4. Queue
+🔹 Concept → FIFO
+queue<int> q;
+q.push(10);
+q.pop();
+q.front();
+🔹 Types
+Normal Queue
+Circular Queue
+Deque
+Priority Queue
+🌳 5. Trees
+🔹 Types
+Binary Tree
+BST
+🔹 Traversals
+Inorder
+Preorder
+Postorder
+🔹 Key Concepts
+Height
+Depth
+LCA
+🔥 Must Do
+Level Order (BFS)
+Diameter of Tree
+Balanced Tree
+🌐 6. Graph
+🔹 Representation
+Adjacency List
+Adjacency Matrix
+vector<int> adj[n];
+🔹 Algorithms
+BFS → O(V+E)
+DFS → O(V+E)
+🔥 Must Do
+Cycle Detection
+Topological Sort
+Shortest Path (Dijkstra)
+🗺️ 7. HashMap
+unordered_map<int, int> mp;
+mp[1] = 10;
+🔹 Complexity
+Insert/Search → O(1) avg
+🔥 Use Cases
+Frequency Count
+Two Sum
+Subarray problems
+⚙️ 8. STL (Very Important 🚀)
+🔹 Vector
+vector<int> v;
+v.push_back(10);
+🔹 Set
+set<int> s;
+🔹 Map
+map<int,int> m;
+🔹 Priority Queue
+priority_queue<int> pq;
+🔍 9. Searching Algorithms
+🔹 Linear Search → O(n)
+🔹 Binary Search → O(log n)
+binary_search(v.begin(), v.end(), x);
+🔄 10. Sorting Algorithms
+Algorithm	Time Complexity
+Bubble Sort	O(n²)
+Selection Sort	O(n²)
+Insertion Sort	O(n²)
+Merge Sort	O(n log n)
+Quick Sort	O(n log n)
+sort(v.begin(), v.end());
+⏱️ 11. Time & Space Complexity
+🔹 Common Complexities
+O(1) → Constant
+O(log n) → Binary Search
+O(n) → Loop
+O(n log n) → Efficient Sorting
+O(n²) → Nested loops
+🔹 Space Complexity
+Extra memory used by algorithm
+🔥 What Matters Most for Placement
+
+Focus on:
+
+Arrays + Strings
+HashMap
+Sliding Window
+Two Pointer
+Stack / Queue
+Trees + Graph (basics)
+
+
+🚀 Final Strategy
+
+👉 Learn → Practice → Revise → Repeat
+
+👉 After 60 days:
+
+Start mock interviews
+Solve previous interview questions
+💬 Reality Check
+
+You don’t need:
+❌ 1000 questions
+❌ All topics mastery
+
+You need:
+✅ 150–250 quality questions
+✅ Strong pattern understanding
