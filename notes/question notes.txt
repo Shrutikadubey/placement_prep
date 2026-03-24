@@ -1,0 +1,170 @@
+//day1 
+1-Single Number-//pattern-basic Traversal
+//approach-xor operation use kr rhe h
+
+2-Concatenation of Array-🧩 Pattern:
+
+👉 Simulation / Basic Traversal
+
+💡 Idea (notes में ऐसे लिखना है):
+Pattern: Simulation / Traversal
+
+Idea:
+- New array बनाना है size 2n का
+- Original array को दो बार traverse करके fill करना
+- ans[i] = nums[i % n]
+🧠 Recognition Trick:
+If question says:
+- “duplicate array”
+- “repeat array elements”
+→ Think: Simulation + Modulo trick
+
+Pattern:
+👉 Simulation / Traversal
+
+Idea:
+
+- New array of size 2n
+- Loop from 0 to n-1
+- Copy elements twice:
+   ans[i] = nums[i]
+   ans[i+n] = nums[i]
+🧠 Recognition Trick:
+If question says:
+- duplicate array
+- repeat elements
+→ Think: Simulation + Traversal
+
+
+3-2. Running Sum of 1D Array
+🧩 Pattern:
+
+👉 Prefix Sum (VERY IMPORTANT ⭐)
+
+💡 Idea (notes में ऐसे लिखना है):
+Pattern: Prefix Sum
+
+Idea:
+- Current element = previous sum + current value
+- nums[i] = nums[i] + nums[i-1]
+- Build cumulative sum step by step
+🧠 Recognition Trick:
+If question asks:
+- “running sum”
+- “cumulative sum”
+- “sum from 0 to i”
+→ Think: Prefix Sum
+
+
+📌 1. Contains Duplicate
+🧩 Pattern:
+
+👉 Hashing (Set / Map)
+
+💡 Idea:
+- Har element ko set me store karo
+- Agar element already present hai → duplicate mil gaya
+🧠 Recognition Trick:
+If question says:
+- “duplicate”
+- “repeated element”
+→ Think: Hashing / Set
+📌 2. Valid Anagram
+🧩 Pattern:
+
+👉 Hashing (Frequency Count)
+
+💡 Idea:
+- Dono strings ka character count compare karo
+- Map/array me frequency store karo
+- Agar sab equal → anagram
+🧠 Recognition Trick:
+If question says:
+- same characters
+- rearrangement
+→ Think: Frequency count (Hashing)
+📌 3. Two Sum ⭐ (VERY IMPORTANT)
+🧩 Pattern:
+
+👉 Hashing
+
+💡 Idea:
+- Har element ke liye check karo:
+  target - nums[i] map me hai ya nahi
+- Agar hai → answer mil gaya
+- Nahi → current element map me store karo
+🧠 Recognition Trick:
+If question says:
+- pair find karo
+- target sum
+→ Think: Hashing / Two Sum pattern
+📌 4. Valid Palindrome
+🧩 Pattern:
+
+👉 Two Pointer
+
+💡 Idea:
+- left = start, right = end
+- Dono characters compare karo
+- Match → move inward
+- Not match → false
+🧠 Recognition Trick:
+If question says:
+- palindrome
+- reverse check
+→ Think: Two Pointer
+
+1. Reverse String
+🧩 Pattern:
+
+👉 Two Pointer
+
+💡 Idea:
+- left = 0, right = n-1
+- swap characters
+- move inward (left++, right--)
+🧠 Recognition Trick:
+If question says:
+- reverse array/string
+→ Think: Two Pointer (swap)
+📌 2. Squares of a Sorted Array ⭐
+🧩 Pattern:
+
+👉 Two Pointer (from both ends)
+
+💡 Idea:
+- Negative numbers ka square bada ho sakta hai
+- left (start), right (end)
+- jo bada square → end me fill karo
+- result array reverse direction me fill
+🧠 Recognition Trick:
+If question says:
+- sorted array but after operation unsorted ho raha
+→ Think: Two Pointer from both ends
+📌 3. Merge Sorted Array
+🧩 Pattern:
+
+👉 Two Pointer (Merging)
+
+💡 Idea:
+- Dono arrays ke end se start karo
+- Jo bada element hai → last position me daalo
+- Backwards merge karo
+🧠 Recognition Trick:
+If question says:
+- two sorted arrays merge
+→ Think: Two Pointer merge
+📌 4. Valid Palindrome II
+🧩 Pattern:
+
+👉 Two Pointer + Greedy (one removal allowed)
+
+💡 Idea:
+- left & right compare karo
+- mismatch aaye → ek baar skip try karo:
+   check (left+1, right) OR (left, right-1)
+- agar koi valid hai → true
+🧠 Recognition Trick:
+If question says:
+- palindrome + “remove at most one”
+→ Think: Two Pointer + try skip
