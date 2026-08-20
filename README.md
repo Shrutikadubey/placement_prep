@@ -1,78 +1,61 @@
-# placement_prep
-This is another  attempt of DSA  series i once again started to revise my concept and brush up the things  using.
- language-c++ and used to enhance problem solving ability
-🚀 Placement Prep – 90 Day DSA Challenge
+<h1 align="center">📚 Placement Preparation</h1>
 
-Master the 30 core coding patterns used in product-based company interviews.
-Focus on patterns, not random questions.
+<p align="center">
+  <b>DSA • Problem Solving • Interview Preparation</b>
+</p>
 
+<p align="center">
+  A personal repository for organizing my DSA practice,
+  problem-solving notes, and placement preparation.
+</p>
 
-🎯 Goal
+<hr>
 
-✔ Crack product-based companies
-✔ Build strong problem-solving skills
-✔ Think in patterns, not brute force
+<h2>📌 About</h2>
 
-📌 Resources
-📄 Onboarding Sheet → Add link
-📚 Main Sheet → https://docs.google.com/spreadsheets/d/1HlSPptLcAoTp-PgHIV_QCcmXGfANbMlTI2eCUU70RU4/edit?usp=sharing
+<p>
+This repository contains my study notes and practice material
+created while preparing for technical interviews and placements.
+</p>
 
+<h2>📂 Repository Structure</h2>
 
-👉 Revise each pattern at least 3–4 times
+<table>
+  <tr>
+    <th>Folder</th>
+    <th>Contents</th>
+  </tr>
+  <tr>
+    <td><code>Topic_wise/</code></td>
+    <td>Day-wise DSA practice and problem-solving work.</td>
+  </tr>
+  <tr>
+    <td><code>notes/</code></td>
+    <td>DSA concepts, patterns, question notes, and revision material.</td>
+  </tr>
+</table>
 
-📘 Course Info
-⏳ Duration: 90 Days
-💻 Language: c++
-🧠 Focus: Patterns + Problem Solving
-📅 Progress Tracker
-Day	Topic	Status
-0	Intro	⬜
-1	Two Pointers	⬜
-2	Practice	⬜
-3	Practice	⬜
-4	Advanced	⬜
-5	Questions	⬜
-6	Strings	⬜
-7	Fast & Slow Pointers	⬜
+<h2>📝 Notes</h2>
 
-👉 Continue till Day 90
+<ul>
+  <li>DSA fundamentals and concepts</li>
+  <li>Problem-solving patterns</li>
+  <li>DSA practice questions</li>
+  <li>Revision notes</li>
+</ul>
 
-🏁 How I Track
-Replace ⬜ with ✅ daily
-Maintain consistency
-Revise regularly
-💬 Daily Log Format
-Writing
+<h2>🎯 Purpose</h2>
 
-Day X / 90
+<p>
+The purpose of this repository is to maintain a structured record
+of my preparation and learning while improving my problem-solving
+skills for technical interviews.
+</p>
 
-Pattern: ___
-Learned: ___
-Next: ___
+<hr>
 
-
-📈 My Rules
-✅ Daily consistency (no skip)
-🔁 Weekly revision
-🧠 Focus on logic, not memorization
-💬 Daily Update Format
-Writing
-
-📅 Day X / 90
-
-✅ Pattern: ___
-🧠 Learned: ___
-🔍 Next: ___
-
-#PlacementPrep #DSA #Consistency
-
-🌟 Why This Works
-
-✔ Covers most interview questions
-✔ Saves time (no random solving)
-✔ Builds real problem-solving ability
-
-🚀 Let’s Connect
-💼 LinkedIn → Add link
-🌐 Portfolio → Add link
-
+<p align="center">
+  <b>👩‍💻 Shrutika Dubey</b>
+  <br>
+  Computer Science Graduate
+</p>
